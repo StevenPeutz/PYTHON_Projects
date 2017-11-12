@@ -1,0 +1,6 @@
+Workflow Management System (open source): KNIME
+
+Predicting wine quality:
+KNIME workflow using both regression modelling (w/ scorer) and decision tree 
+(normal & random forests) for predicting wine quality. Data set from Paulo Cortez, 2009 
+(UCI Machine Learning repository)
