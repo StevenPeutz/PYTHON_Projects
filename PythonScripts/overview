@@ -1,5 +1,0 @@
-Practice scripts.
-
-- Python linkscraper: Script for listing all links on a given (input) webpage. (using BS4, works with TLS)
-- Custom Python linkscraper: scraping all links for a given URL (input) without depending on Beautiful Soup.
-
