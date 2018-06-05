@@ -1,21 +1,5 @@
 
-_Newbe to Kaggle and datascience in general. As I am creating my first kernel for the Titanic Survival prediction model (in python) I wrote down everything that I thought was unclear at first. The goal I set for myself was to get everythng working, create a model that predicted at least somewhat better than chance alone, and upload it to Kaggle.<br> I hope this is useful to newbe kagglers like myself._
-
-***
-
-### 1 Decsisions to make before starting your first datascience project (kaggle titanic..)
--First: the decision to either work 'within' Kaggle (the kaggle kernel) or use use your own downloadable platform. 
--Second: 'Python or R?'
-
-#### First decision:
-What is meant by 'own platform'?
-You can do all of this outside of Kaggle and then upload (/copy paste code) to kaggle when done. Obviously this requires some setup but the advantages are that you know where you stand when doing datascience projects oustide of kaggle. The setup is made quite easy by means of an application called 'anaconda navigator' which also has other benefits so I stronlgy suggest using this if going for your own setup.
-
-#### Second decision:
-Discussion has been going forever. Rivalling the tabs vs spaces debate :P #piedpiper Being horrible at the javascript syntax I choose python because of its syntaxical ease but both have their advantages and disadvantages. 
-Most important take-away; eiter will be fine, if starting choose the language your (desired) job/company uses.
-
-
+### ..section 1 deleted..
 
 ### 2 Getting started:
 - 2A: Orienting Yourself
