@@ -1,0 +1,1 @@
+Kevin Markham's excercise presented at the PyCon 2018 Cleveland. Instructions etc on youtube and dataschool.io (see the readme file)
