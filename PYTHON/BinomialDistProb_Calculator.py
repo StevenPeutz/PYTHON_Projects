@@ -1,4 +1,7 @@
-#import math  #needed for factorials, wil circumvent later with loop
+
+#This Python script calculates the probability for n choose k in a binomial probability distribution.
+#Functions are described in the docstrings.
+
 print('-------------------')
 print("This will calculate the probability for n choose k in a binomial probability distribution.")
 p = float(input('Choose the probability for success (1 success for 1 trial, on  a 0 to 1 scale): '))
