@@ -1,6 +1,7 @@
 
 #This Python script calculates the probability for n choose k in a binomial probability distribution.
 #Functions are described in the docstrings.
+#!/usr/bin/env python3
 
 print('-------------------')
 print("This will calculate the probability for n choose k in a binomial probability distribution.")
