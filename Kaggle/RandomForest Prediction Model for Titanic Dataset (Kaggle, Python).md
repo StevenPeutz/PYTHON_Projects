@@ -1,4 +1,85 @@
 
+### ..section 1 deleted..
+
+### 2 Getting started:
+- 2A: Orienting Yourself
+- 2B: Having a looksy at the data (or Exploratory Data Analysis (EDA))
+
+### 3 Data prepping & further visualization
+
+### 4 Modelling
+
+### 5 Submission
+<br>
+***
+
+### 1A: Getting started: Orienting Yourself
+First things first. Even before looking at your data you want to orient yourself _(at least you want to do this if you are new to jupyter notebook and kaggle kernels like me)._ See 'where are working from' and if necesary change your working directory to where you have saved your data files (csv's). <br>To do this you need:
+<li>import os   _#to be able to use the os. commands_
+<li>os.getcwd()   _#to find were you are working from now (like 'pwd' in unix)_
+<li>os.chdir('....path..')   _#to change from you current direcotory to you desired directory (e.g. where your data csv's are). Like 'cd' in unix._<br>
+
+_#If you are working fully within a kaggle kernel you can skip this. But is might be good to do this anyway for potential troubleshooting purposes in the future._
+
+
+```python
+import os
+os.getcwd()
+```
+
+
+
+
+    '/Users/steven'
+
+
+
+<br>
+So we see we are currently set in Users/steven. This is not where I want to be because I have not -and do not want to- save my data files (csv's) here. 
+
+So I look up were the folder is that contains the CSV's (train.csv & test.csv downloaded from kaggle) I intend to use.<br>
+
+_You do this outside Jupyter, by just looking on your computer and looking at the path. For me it is /Users/steven/Documents/Kaggle/Titanic so this will be used in the following command.<br>_
+
+_# This is case sensitive so pay attention to
+whether your folders on your PC start with or without uppercase!_
+
+
+```python
+os.chdir('/Users/steven/Documents/Kaggle/Titanic')
+```
+
+<br>
+Now we check by using same command as before _(and we see it is correct because it prints out the directory we wanted)_:
+<br>
+<br>
+
+
+```python
+os.getcwd()
+```
+
+
+
+
+    '/Users/steven/Documents/Kaggle/Titanic'
+
+
+
+***
+<br>
+### 1B: Getting started: Having a looksy at the data ("EDA")
+
+So now you are ready to start. You want to look a bit at the data. Two (there are a lot more) basic ways are;
+- 1: open your data files (csv's) with excel, save a copy as .xls and in excel go to the data tab and use the text to data wizard to use the comma's to seperate fields.<br>
+_the advantage of this is that after having a quick look you can you pivot tables functionality in excel to look deeper_
+- 2: show data in your jupyter notebook
+
+
+Let's assume you have already done number 1 (opening in excel and looking in the data, ideally using a pivot table). If you are starting at kaggle I am going to assume you are familiar with excel basics..
+For number 2 (data in jupyter notebooke/kaggle kernel) first step in to import a library that helps you work with csv files called 'pandas' _(this is your 'csv-reader' and allows you to create dataframes_ :
+
+
 ```python
 import pandas as pd
 ```
